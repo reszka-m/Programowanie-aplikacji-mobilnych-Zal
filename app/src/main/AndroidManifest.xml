@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.verygoodapp">
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.youtube.api.service.START" />
+        </intent>
+    </queries>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VeryGoodApp">
+        <activity
+            android:name=".ListElement10"
+            android:exported="false" />
+        <activity
+            android:name=".ListElement9"
+            android:exported="false" />
+        <activity
+            android:name=".ListElement8"
+            android:exported="false" />
+        <activity
+            android:name=".ListElement7"
+            android:exported="false" />
+        <activity
+            android:name=".ListElement6"
+            android:exported="false" />
+        <activity
+            android:name=".ListElement5"
+            android:exported="false" />
+        <activity
+            android:name=".ListElement4"
+            android:exported="false" />
+        <activity
+            android:name=".ListElement2"
+            android:exported="false" />
+        <activity
+            android:name=".ListElement0Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".ListElement1"
+            android:exported="false" />
+        <activity
+            android:name=".ListElement0"
+            android:exported="false" />
+        <activity
+            android:name=".ListElement3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
